@@ -1,0 +1,79 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.position-margin {
+  margin-bottom: 5px;
+}
+
+.icon-foto-profile {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  border: 1px dashed #1890ff;
+}
+
+.ant-avatar {
+  width: 72px !important;
+  height: 72px !important;
+  border-radius: 50px !important;
+  margin: 0 auto !important;
+  margin-top: 0.4px !important;
+  margin-left: 0.6px !important;
+}
+
+.login-form-button {
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.m-signature-pad--body canvas {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), inset 0 0 40px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  width: 500px;
+}
+
+.folha-a4 {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), inset 0 0 40px rgba(0, 0, 0, 0.08);
+  padding: 60px;
+  width: 100%;
+  background-color: #f9eed2;
+  margin: 0 auto;
+  color: #325c0e;
+}
+
+button.btn.btn-default.button.clear {
+  line-height: 1.499;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  height: 32px;
+  padding: 0 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+}

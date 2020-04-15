@@ -1,0 +1,92 @@
+.label-float{
+  position: relative;
+  padding-top: 13px;
+}
+
+.label-float .react-select{
+  border-color: #fff;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 7px;  
+
+}
+
+.label-float .react-select:focus{
+  border-bottom: 2px solid #1890ff;
+}
+
+.label-float .react-select::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  margin-top: 15px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+.label-float .react-select:focus + label,
+.label-float .react-select:not(:placeholder-shown) + label{
+  font-size: 13px;
+  margin-top: -6px;
+  color: #1890ff;
+}
+
+.css-yk16xz-control {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid lightgrey !important;
+  border-radius: 0 !important;
+}
+
+.css-yk16xz-control:hover {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid#1890ff !important;
+  border-radius: 0 !important;
+}
+
+.css-yk16xz-control:focus {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid#1890ff !important;
+  border-radius: 0 !important;
+}
+
+.css-1pahdxg-control {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid#1890ff !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.css-1pahdxg-control:hover {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid#1890ff !important;
+  border-radius: 0 !important;
+}
+
+.css-1pahdxg-control:focus {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid#1890ff !important;
+  border-radius: 0 !important;
+} 
